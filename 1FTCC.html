@@ -3,6 +3,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.5 maximum-scale=2.5, user-scalable=yes ">
   <title>Chords for FTCC Songs</title>
   <link rel="manifest" href="ftcc.json">
+
+   <script>
+      /* how to 
+      -this will downoad an html file
+      -upload file to gdrive or open with google docs or microsoft word
+      -need to save file as .docx
+      */
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('ftcc.js')
+            .then(reg => console.log('Service Worker registered!'))
+            .catch(err => console.error('Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  
 <script>
 var title00A = 
 {
