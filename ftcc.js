@@ -1,5 +1,5 @@
 // 1. Increment this version name whenever you update any files
-const CACHE_NAME = '1FTCC03';
+const CACHE_NAME = '1FTCC04';
 
 const ASSETS = [
   '1FTCC.html',
