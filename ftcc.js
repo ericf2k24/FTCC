@@ -1,4 +1,4 @@
-const CACHE_NAME = '1FTCC';
+const CACHE_NAME = '1FTCC1';
 const ASSETS = [
   '1FTCC.html',
   'ftcc.json',
